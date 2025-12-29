@@ -35,15 +35,12 @@ Adjust 'args. is_training==1' in 'configs/configs. py' and train the model using
 main.py
 ```
 
-
-
-
-
-
-
 ### (b) Incremental learning stage
 To cope with the continuous addition of new texture samples and dynamic changes in interactive scenes in practical applications, we further constructed an incremental learning stage. 
 On this basis, an adapter module is introduced to learn finite characteristic parameters in dynamic tactile data, and to achieve adaptive updates of the model to the distribution of new input data and dynamic interaction scenarios without damaging the pre training weights of the backbone network. Specifically, the adapter is embedded between the pre trained base layer (feature extraction module and encoder) and the task specific layer (decoder and discriminator), capturing the difference information between different data distributions through a small number of trainable parameters, thereby enhancing its plasticity and generalization ability to dynamic inputs while maintaining model stability.
 
-
+Next, run 'incremental-learning. py' to update and adjust the parameters of the initially trained PTH file, resulting in a new PTH model after incremental learning.
+```bash
+incremental_learning.py
+```
 
