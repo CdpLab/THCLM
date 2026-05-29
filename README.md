@@ -1,4 +1,4 @@
-# Multidimensional Texture Haptic Display based on Generative Replay Incremental Learning Model
+# <p align="center">Multidimensional Texture Haptic Display based on Generative Replay Incremental Learning Model</p>
 
  <p align="center">Dapeng Chen, Zhangjia Deng, Yi Ding, Xuhui Hu, Hui Zhang, Hong Zeng, Jia Liu, and Aiguo Song</p>
   <p align="center">Nanjing University of Information Science and Technology</p>
