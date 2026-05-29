@@ -1,5 +1,11 @@
 # Multidimensional Texture Haptic Display based on Generative Replay Incremental Learning Model
 
+ <p align="center">Dapeng Chen, Zhangjia Deng, Yi Ding, Xuhui Hu, Hui Zhang, Hong Zeng, Jia Liu, and Aiguo Song</p>
+  <p align="center">Nanjing University of Information Science and Technology</p>
+
+---
+
+
 <h3 align="center">ABSTRACT</h3>
 
 With the continuous expansion of texture sample data, the texture haptic model needs to maintain stable rendering of learned textures while continuously acquiring new texture features. However, existing models often fail to effectively absorb new knowledge in continuous learning scenarios, or cannot simul- taneously balance the learning efficiency of new textures and the maintenance of existing representation capabilities. To address this issue, we propose a texture haptic continuous learning model (THCLM) based on generative replay mechanism. This model adds a continuous learning phase to our previous initial training phase work. The continuous learning phase introduces a buffer and an adapter for replay learning, and freezes the backbone net- work parameters to avoid the destruction of existing knowledge by new tasks. Through joint loss optimization of the decoder and discriminator, THCLM enhances its fitting ability to new tasks. We trained the model on the SENS3 dataset and conducted four systematic validation experiments. The results showed that THCLM can effectively learn new knowledge, exhibiting superior performance in combating catastrophic forgetting (with a BWT value of -0.101). Compared to existing advanced haptic signal generation methods, its generalization performance is better. Finally, we conducted two user experiments, and the results show that THCLM can effectively absorb new sample information, enabling users to acquire higher accuracy (89%) in virtual and real texture matching tasks. Compared with existing baseline methods, our method achieves the current highest perceptual average similarity score (7.6), verifying its effectiveness in con- tinuous learning ability within dynamic texture scenarios.
